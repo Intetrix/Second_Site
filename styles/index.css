@@ -1,0 +1,43 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #2D3436;
+    --color-gray_dark: #5C5C5C;
+    --color-gray: #858585;
+    --color-gray_light: #ADADAD;
+    --color-gray_soft: #C2C2C2;
+
+    --color-blue_dark: #0984E3;
+    --color-blue_light: #74B9FF;
+
+    --color-green_dark: #00B894;
+    --color-green_light: #55EFC4;
+
+    --color-yellow_dark: #FDCB6E;
+    --color-yellow_light: #FFEAA7;
+
+    --color-red_dark: #D63031;
+    --color-red_light: #FF7675;
+
+    --color-purple_dark: #6C5CE7;
+    --color-purple_light: #A29BFE;
+
+    --color-pink_dark: #E84393;
+    --color-pink_light: #FD79A8;
+
+    --font-family-B: InterB, sans-serif;
+    --font-family-L: InterL, sans-serif;
+    --font-family-M: InterM, sans-serif;
+    --font-family-R: InterR, sans-serif;
+
+    --animation-speed: .3s;
+    --animation-func: ease;
+    --animation: var(--animation-speed) var(--animation-func);
+}
+
+body {
+    margin: 0;
+}
+
+body * { /*звездочка значит обратиться ко всем элементам боди*/
+    box-sizing: border-box;
+}

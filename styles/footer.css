@@ -1,0 +1,139 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 136px 0;
+    background: url('../images/background/Wave.svg') no-repeat bottom;
+    background-size: contain;
+}
+
+.footer-info {
+    margin-right: 60px;
+}
+
+.footer-s-title,
+.footer-l-title,
+.footer-fol-tit,
+.footer-fed-tit {
+    margin: 0px;
+    color: var(--color-gray_light);
+    font-size: 12px;
+    font-family: var(--font-family-B);
+}
+
+.footer-fed-tit {
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.footer-l-title {
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.footer-s-container {
+    margin-top: 8px;
+}
+
+.footer-s-container > img {
+    margin-right: 37px;
+    border-radius: 50%;
+    transition: var(--animation);
+}
+
+.footer-s-container > img:last-child {
+    margin: 0;
+}
+
+.footer-s-container > img:hover {
+    background-color: var(--color-yellow_light);
+}
+
+.footer-l-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, auto) ;
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-l-container a {
+    color: var(--color-black);
+    font-size: 14px;
+    font-family: var(--font-family-R);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: var(--animation);
+}
+
+.footer-l-container a:hover,
+.footer-l-container a:focus {
+    border-color: var(--color-black) ;
+}
+
+.footer-fol-email {
+    font-size: 32px;
+    font-family: var(--font-family-B);
+    color: var(--color-purple_dark);
+}
+
+.footer-fed-form div {
+   display: flex;
+}
+
+.footer-fed-form div:first-child {
+    margin-bottom: 30px;
+}
+
+.footer-fed-form input:hover {
+    opacity: .5;
+}
+
+.footer-fed-form input {
+    width: 270px;
+    height: 48px;
+    font-size: 18px;
+    color: var(--color-black);
+    border: none;
+    background-color: rgba(194, 194, 194, 0.24);
+    border-radius: 16px;
+    padding: 8px 16px ;
+    transition: var(--animation);
+}
+
+.footer-fed-form input::placeholder {
+    color: var(--color-black);
+}
+
+.footer-fed-form input:first-child {
+    margin-right: 30px;
+}
+
+.footer-fed-form textarea {
+    width: 370px;
+    height: 80px;
+    padding: 16px;
+    resize: none;
+    margin-right: 30px;
+    font-size: 18px;
+    color: var(--color-black);
+    background-color: rgba(194, 194, 194, 0.24);
+    border: none;
+    border-radius: 16px;
+    border: 2px solid var(--color-purple_dark);
+    transition: var(--animation);
+}
+
+.footer-fed-form textarea:hover {
+    opacity: .5;
+}
+
+.footer-fed-form textarea::placeholder {
+    color: var(--color-purple_dark);
+    font-family: var(--font-family-B);
+}
+
+.footer-fed-form button {
+    width: 170px;
+    height: 80px;
+}
